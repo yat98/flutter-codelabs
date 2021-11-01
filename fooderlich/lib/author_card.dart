@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:fooderlich/circle_image.dart';
-import 'package:fooderlich/fooderlichTheme.dart';
+import 'package:fooderlich/fooderlich_theme.dart';
 
 class AuthorCard extends StatelessWidget{
   final String authorName;
