@@ -1,10 +1,6 @@
 import 'dart:ui';
 
-enum Importance {
-  low,
-  medium,
-  high
-}
+enum Importance { low, medium, high }
 
 class GroceryItem {
   final String id;
@@ -15,25 +11,23 @@ class GroceryItem {
   final DateTime date;
   final bool isComplete;
 
-  GroceryItem({
-    required this.id,
-    required this.name,
-    required this.importance,
-    required this.color,
-    required this.quantity,
-    required this.date,
-    required this.isComplete
-  });
+  GroceryItem(
+      {required this.id,
+      required this.name,
+      required this.importance,
+      required this.color,
+      required this.quantity,
+      required this.date,
+      this.isComplete = false});
 
-  GroceryItem copyWith({
-    String? id,
-    String? name,
-    Importance? importance,
-    Color? color,
-    int? quantity,
-    DateTime? date,
-    bool? isComplete
-  }) {
+  GroceryItem copyWith(
+      {String? id,
+      String? name,
+      Importance? importance,
+      Color? color,
+      int? quantity,
+      DateTime? date,
+      bool? isComplete}) {
     return GroceryItem(
       id: id ?? this.id,
       name: name ?? this.name,

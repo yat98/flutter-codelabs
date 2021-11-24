@@ -71,8 +71,8 @@ class FooderlichTheme{
         backgroundColor: Colors.white,
       ),
       floatingActionButtonTheme: const FloatingActionButtonThemeData(
-        foregroundColor: Colors.black,
-        backgroundColor: Colors.white
+        backgroundColor: Colors.black,
+        foregroundColor: Colors.white
       ),
       bottomNavigationBarTheme: const BottomNavigationBarThemeData(
         selectedItemColor: Colors.green,
